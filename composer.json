@@ -2,7 +2,8 @@
     "name": "bitmax/laravel-jwt",
     "version": "1.0.0",
     "description": "Laravel JWT LIB",
-    "type": "librart",
+    "license": "MIT",
+    "type": "library",
     "require": {
         "firebase/php-jwt": "^6.4",
         "illuminate/support": "^10.2",
