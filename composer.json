@@ -1,0 +1,28 @@
+{
+    "name": "bitmax/laravel-jwt",
+    "version": "1.0.0",
+    "description": "Laravel JWT LIB",
+    "type": "librart",
+    "require": {
+        "firebase/php-jwt": "^6.4",
+        "illuminate/support": "^10.2",
+        "illuminate/contracts": "^10.2",
+        "illuminate/http": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitmax\\LaravelJwt\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Bitmax\\LaravelJwt\\JWTProvider"]
+        }
+    },
+    "authors": [
+        {
+            "name": "Wargas",
+            "email": "teixeira.wargas@gmail.com"
+        }
+    ]
+}
