@@ -19,7 +19,15 @@ Example:
         ...
     ],
 ```
+Add the middleare `auth:api` for routes you want to protect
 
+Example:
+
+```
+Route::middleware('auth:api')->get('/user', function (Request $request) {
+    return $request->user();
+});
+```
 
 ## Code of Conduct
 
